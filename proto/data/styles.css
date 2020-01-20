@@ -22,6 +22,8 @@
 }
 .placeholder {
 }
+.button {
+}
 .link_button {
   color:#169BD5;
 }
@@ -73,9 +75,17 @@
 .paragraph {
   text-align:left;
 }
+.arrow {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
 .list_box {
   color:#000000;
   text-align:left;
+}
+.flow_shape {
 }
 .tree_node {
   text-align:left;
@@ -84,9 +94,22 @@
 }
 .menu_item {
 }
+.snapshot {
+}
+.sticky_2 {
+  text-align:left;
+}
 .form_hint {
   color:#999999;
 }
 .form_disabled {
+}
+.line {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.checkbox {
+  text-align:left;
 }
 textarea, select, input, button { outline: none; }
