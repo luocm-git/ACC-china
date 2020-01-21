@@ -18,6 +18,8 @@
 }
 .ellipse {
 }
+.shape {
+}
 .image {
 }
 .placeholder {
@@ -78,6 +80,10 @@
 .arrow {
 }
 .text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
   color:#000000;
   text-align:left;
 }
