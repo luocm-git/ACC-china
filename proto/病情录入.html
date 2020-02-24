@@ -51,8 +51,8 @@
       <!-- Unnamed (Rectangle) -->
       <div id="u32" class="ax_default box_1">
         <div id="u32_div" class=""></div>
-        <div id="u32_text" class="text ">
-          <p><span>姓名，</span></p><p><span>性别</span></p><p><span>发病年龄</span></p><p><span>联系方式（微信/手机）</span></p><p><span>首次就医时间？</span></p><p><span>首次就医时症状及持续时间？（如发现颌下肿物3个月）</span></p><p><span>原发部位在哪？</span></p><p><span>原发灶大小？</span></p><p><span>首次治疗时间？</span></p><p><span>首次治疗方式（手术、放疗或其他）?</span></p><p><span>首次治疗后原发灶是否已完全去除？</span></p><p><span>原发灶有无复发？</span></p><p><span>是否手术?</span></p><p><span>手术日期？</span></p><p><span>手术方式？</span></p><p><span>病理诊断？</span></p><p><span>实性、筛状、管状哪种为主或占比？</span></p><p><span>免疫组化Ki67比例？</span></p><p><span>有无神经侵犯？</span></p><p><span>是否放疗？</span></p><p><span>是术前、术后还是单独放疗？</span></p><p><span>放疗日期、总剂量，次数</span></p><p><span>是否化疗?</span></p><p><span>化疗日期，药物名称，剂量，疗程？</span></p><p><span>是否靶向治疗？</span></p><p><span>靶向治疗日期，药物名称，剂量，疗程？</span></p><p><span>是否发生肺转移？</span></p><p><span>首次发现肺转移时间（日期）？</span></p><p><span>首次发现肺转移距离首次就医间隔多久?</span></p><p><span>首次发现肺转移距离首次治疗间隔多久?</span></p><p><span>首次发生肺转移时肺结节大小？数量？位置？（如2019-1-2，左肺上叶一小结节，5*6mm）</span></p><p><span>发生肺转移后一般间隔多久复查肺部CT？</span></p><p><span>肺转移后每次肺CT检查日期、肺结节大小、数量、位置变化</span></p><p><span>肺转移是否正在观察中？</span></p><p><span>肺转移是否已进行了干预？</span></p><p><span>是什么时候开始对肺转移进行干预？</span></p><p><span>肺转移干预措施是什么？（手术、消融、放疗、化疗、靶向或其他？）</span></p><p><span>是否进行了基因检测？</span></p><p><span>突变基因？如NOTCH1</span></p><p><span>是否有颈部淋巴结转移？</span></p><p><span>是否发生其他远处转移？</span></p>
+        <div id="u32_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
         </div>
       </div>
 
@@ -181,7 +181,7 @@
 
             <!-- Unnamed (Image) -->
             <div id="u53" class="ax_default image">
-              <img id="u53_img" class="img " src="images/index/u16.png"/>
+              <img id="u53_img" class="img " src="images/index/u16_selected.png"/>
               <div id="u53_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
@@ -193,7 +193,7 @@
                 <p><span>病程跟踪</span></p>
               </div>
             </div>
-            <div id="u52_children" class="u52_children" style="visibility:hidden;">
+            <div id="u52_children" class="u52_children">
 
               <!-- Unnamed (Tree Node) -->
               <div id="u55" class="ax_default tree_node treenode">
@@ -221,6 +221,128 @@
         </div>
       </div>
       <div id="u33" style="display:none; visibility:hidden;"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u59" class="ax_default label">
+        <div id="u59_div" class=""></div>
+        <div id="u59_text" class="text ">
+          <p><span>姓名：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u60" class="ax_default text_field">
+        <div id="u60_div" class=""></div>
+        <input id="u60_input" type="text" value="" class="u60_input"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u61" class="ax_default radio_button">
+        <label id="u61_input_label" for="u61_input" style="position: absolute; left: 0px;">
+          <img id="u61_img" class="img " src="images/病情录入/u61.svg"/>
+          <div id="u61_text" class="text ">
+            <p><span>男</span></p>
+          </div>
+        </label>
+        <input id="u61_input" type="radio" value="radio" name="u61"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u62" class="ax_default radio_button">
+        <label id="u62_input_label" for="u62_input" style="position: absolute; left: 0px;">
+          <img id="u62_img" class="img " src="images/病情录入/u62.svg"/>
+          <div id="u62_text" class="text ">
+            <p><span>女</span></p>
+          </div>
+        </label>
+        <input id="u62_input" type="radio" value="radio" name="u62"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u63" class="ax_default label">
+        <div id="u63_div" class=""></div>
+        <div id="u63_text" class="text ">
+          <p><span>发病年龄：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u64" class="ax_default text_field">
+        <div id="u64_div" class=""></div>
+        <input id="u64_input" type="number" value="" class="u64_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u65" class="ax_default label">
+        <div id="u65_div" class=""></div>
+        <div id="u65_text" class="text ">
+          <p><span>联系方式：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u66" class="ax_default text_field">
+        <div id="u66_div" class=""></div>
+        <input id="u66_input" type="number" value="" class="u66_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u67" class="ax_default label">
+        <div id="u67_div" class=""></div>
+        <div id="u67_text" class="text ">
+          <p><span>手术日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u68" class="ax_default text_field">
+        <div id="u68_div" class=""></div>
+        <input id="u68_input" type="number" value="" class="u68_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u69" class="ax_default label">
+        <div id="u69_div" class=""></div>
+        <div id="u69_text" class="text ">
+          <p><span>手术方式：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u70" class="ax_default text_field">
+        <div id="u70_div" class=""></div>
+        <input id="u70_input" type="number" value="" class="u70_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u71" class="ax_default label">
+        <div id="u71_div" class=""></div>
+        <div id="u71_text" class="text ">
+          <p><span>是否放疗：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u72" class="ax_default radio_button">
+        <label id="u72_input_label" for="u72_input" style="position: absolute; left: 0px;">
+          <img id="u72_img" class="img " src="images/病情录入/u72.svg"/>
+          <div id="u72_text" class="text ">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u72_input" type="radio" value="radio" name="u72"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u73" class="ax_default radio_button">
+        <label id="u73_input_label" for="u73_input" style="position: absolute; left: 0px;">
+          <img id="u73_img" class="img " src="images/病情录入/u73.svg"/>
+          <div id="u73_text" class="text ">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u73_input" type="radio" value="radio" name="u73"/>
+      </div>
     </div>
     <script src="resources/scripts/axure/ios.js"></script>
   </body>
